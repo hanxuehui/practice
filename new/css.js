@@ -45,4 +45,9 @@ display:none和visibility:hidden区别
 css样式优化以及提高性能的方法
 css画一个三角形
 position定位
+
+static默认属性值
+relative相对定位
+absolute 绝对定位（以他最近的一个已经定位的为基准进行定位，如果没有就一浏览器为基准定位）
+fixed 固定定位 与绝对定位相似---以浏览器为基准定位 拖动滚动条，位置保持不变
 */ 

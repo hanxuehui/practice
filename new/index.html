@@ -40,14 +40,55 @@
     /* div p:only-of-type{
         background-color: blue;
     } */
-    div p:nth-child(2){
+    /* div p:nth-child(2){
         color:pink;
+    } */
+    /* 居中显示 */
+    /* .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        margin: auto;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+    } */
+  
+    .box{
+        width: 100px;
+        height: 100px;
+        border:1px solid #ccc;
+        display: table; 
     }
+    .list{
+        width:80px;
+        height: 80px;
+        border:1px solid #ccc;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    /* .box{
+        height: 800px;
+        width: 800px;
+        border:1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border:1px solid #ccc;
+    } */
 </style>
 
 <body>
-    <img src="eg_smile.gif" />
-    <a href="http://www.w3school.com.cn">W3School</a>
+    <!-- <img src="eg_smile.gif" />
+    <a href="http://www.w3school.com.cn">W3School</a> -->
     <!-- <div class="box"></div>
     <div class="bigBox"></div> -->
 
@@ -71,11 +112,15 @@
         <p>2222</p>
     </div>
     <span>333</span> -->
-    <div>
+    <!-- <div>
         <p>2222</p>
         <p>2222</p>
         <p>2222</p>
+    </div> -->
+    <div class="box">
+        <div class="list">111111</div>
     </div>
+    <!-- <div class="box"><span class="title">1111</span></div> -->
     <script>
 
 
