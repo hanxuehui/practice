@@ -56,5 +56,16 @@ height: 1000px;
 <div class="first">123</div>
 <div class="keep"></div>
 <div class="second">456</div>
+<script>
+  let time=new Date()
+  let year=time.getFullYear()
+  let month=time.getMonth()+1
+  let data=time.getDate()
+  let hours=time.getHours()
+  let min=time.getMinutes()
+  let second=time.getSeconds()
+ document.write(year+'年'+month+'月'+data+'日'+hours+'时'+min+'分钟'+second+'秒')
+ console.log(String(null))
+</script>
 </body>
 </html>
