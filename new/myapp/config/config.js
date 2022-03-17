@@ -25,7 +25,7 @@ export default defineConfig({
 /**快速刷新（Fast Refresh），开发时可以保持组件状态，同时编辑提供即时反馈。 */
   fastRefresh: {},
   /*相当于动态给head头中加入src*/ 
-  headScripts: [`alert(1);`, `https://a.com/b.js`],
+  // headScripts: [`alert(1);`, `https://a.com/b.js`],
   /*路由支持方式 hash  browser 和 memor*/
   history:{
     type:'hash'
