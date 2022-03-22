@@ -26,10 +26,19 @@
 // })
 // console.log(brr)
 let arr =[{"a":1,name:"han"},{"a":3,name:"hananan"}]
-let a=arr.filter(item=>{
+// arr.filter(item=>{
+//    if(item.name=='han'){
+//       return item.a+=3
+//    }  
+// })
+// arr.forEach(item=>{
+//    if(item.name=='han'){
+//       item.a+=1
+//    }
+// })
+arr.map(item=>{
    if(item.name=='han'){
-      return item
-   }
-    
+      return item.a+=3
+   }  
 })
-console.log(a)
+console.log(arr)
